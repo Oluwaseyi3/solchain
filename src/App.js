@@ -263,16 +263,16 @@ function App() {
 
         <div className='flex relative  flex-row justify-center gap-[100px] items-start flex-wrap '>
           <div className='h-[100%] text-center flex flex-col items-center gap-5'>
-            <h1 className='text-3xl text-green-400'>NO TEAM TOKENS!</h1>
+            <h1 className='md:text-3xl text-2xl text-green-400'>NO TEAM TOKENS!</h1>
             <img src={locked} alt='' />
           </div>
           <div className='h-[100%] text-center flex flex-col items-center gap-5'>
-            <h1 className='text-3xl text-green-400'>NO PRESALE!</h1>
+            <h1 className='md:text-3xl text-2xl text-green-400'>NO PRESALE!</h1>
             <img src={shell} alt='' />
           </div>
 
           <div className='h-[100%] text-center flex flex-col items-center gap-5'>
-            <h1 className='text-3xl text-green-400'>NO MAX WALLET LIMITS!</h1>
+            <h1 className='md:text-3xl text-2xl text-green-400'>NO MAX WALLET LIMITS!</h1>
             <img src={liquid} alt='' />
           </div>
         </div>
