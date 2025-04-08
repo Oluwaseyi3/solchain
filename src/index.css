@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-collapse-header-white .ant-collapse-header {
+    color: white !important;
+    /* Use !important to ensure override */
+}
